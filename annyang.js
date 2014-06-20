@@ -7,7 +7,7 @@
   "use strict";
 
   // Save a reference to the global object (window in the browser)
-  var root = this;
+  var root = window;
 
   // Get the SpeechRecognition object, while handling browser prefixes
   var SpeechRecognition = root.SpeechRecognition ||
